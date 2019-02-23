@@ -1,0 +1,89 @@
+
+html{
+	overflow-x:  hidden;
+}
+body{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.z1{
+	font-size: 22px;
+	font-family: Corporate;
+	margin-bottom: 0;
+	font-weight: 500;
+}
+.z2{
+	font-weight: 500;
+	font-size: 14px;
+	font-family: Corporate;
+}
+.z3{
+	font-size: 14px;
+	font-weight: bold;
+}
+.z4{
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+.z5{
+	font-weight: bold;
+}
+.z6{
+	font-weight: bold;
+	padding-top: 30px;
+}
+.header{
+	height: 100px;
+	background: #000;
+	margin-bottom: 50px;
+}
+.k1{
+	background: url(img/k1.jpg) ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+
+}
+.b{
+	font-size: 14px;
+}
+.b p{
+	margin-bottom: 0;
+}
+.b ul{
+	padding-left: 0;
+}
+.b ul li{
+	list-style: none;
+}
+@font-face {
+	font-family: Corporate;
+	src: url("font/ufonts_com_corporate_a_regular_1_.ttf");
+	font-weight: normal;
+}
+.sb{
+	font-size: 8px;
+	padding-top: 20px;
+}
+.sb p{
+	margin-bottom: 5px;
+	font-weight: 500;
+}
+.two_1 img{
+	padding-bottom:20px; 
+	width: 90%;
+	height: 200px;
+}
+.t_b{
+	padding-top: 200px;
+}
+.logo_n img{
+	height: 60px;
+	padding-top: 40px;
+}
+.logo img{
+	padding-right: 20px;
+	float: right;
+	padding-top: 20px;
+	height: 70px;
+}
