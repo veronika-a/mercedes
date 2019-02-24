@@ -1,14 +1,13 @@
 
-html{
-	overflow-x:  hidden;
-}
+
 body{
-	padding-right: 10px;
-	padding-left: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 .z1{
 	font-size: 22px;
 	font-family: Corporate;
+	padding-top: 20px;
 	margin-bottom: 0;
 	font-weight: 500;
 }
@@ -16,6 +15,7 @@ body{
 	font-weight: 500;
 	font-size: 14px;
 	font-family: Corporate;
+	padding-bottom: 20px;
 }
 .z3{
 	font-size: 14px;
@@ -35,7 +35,6 @@ body{
 .header{
 	height: 100px;
 	background: #000;
-	margin-bottom: 50px;
 }
 .k1{
 	background: url(img/k1.jpg) ;
@@ -56,6 +55,20 @@ body{
 .b ul li{
 	list-style: none;
 }
+.menu a li{
+	line-height: 80px;
+	vertical-align: center;
+	list-style: none;
+	color: #fff;
+	display: inline;
+	padding-left: 30px;
+	float: right;
+	margin-right: 50px;
+	text-decoration: none;
+}
+.menu a li:hover{
+	color: #b6b6b6b6
+}
 @font-face {
 	font-family: Corporate;
 	src: url("font/ufonts_com_corporate_a_regular_1_.ttf");
@@ -63,19 +76,16 @@ body{
 }
 .sb{
 	font-size: 8px;
-	padding-top: 20px;
+	padding-top: 70px;
 }
 .sb p{
 	margin-bottom: 5px;
 	font-weight: 500;
 }
-.two_1 img{
-	padding-bottom:20px; 
-	width: 90%;
-	height: 200px;
-}
+
 .t_b{
-	padding-top: 200px;
+	margin-left: 50px;
+	padding-top: 100px;
 }
 .logo_n img{
 	height: 60px;
@@ -86,4 +96,45 @@ body{
 	float: right;
 	padding-top: 20px;
 	height: 70px;
+}
+@media screen and (max-width: 575px){
+	.k1{
+		visibility: hidden;
+		height: 0;
+		padding: 0;
+	}
+	.t_b {
+		padding-top: 0;
+	}
+	.header{
+		height: 160px;
+	}
+	.logo img{
+		visibility: hidden;
+	}
+	.logo_n{
+		position: relative;
+		left: -50px;
+	}
+}
+.k2{
+	background: url(img/k2.jpg) ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+	margin-bottom:20px; 
+}
+.k3{
+	background: url(img/k3.jpg) ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+	margin-bottom:20px; 
+}
+.k4{
+	background: url(img/k4.jpg) ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+	margin-bottom:20px; 
 }
