@@ -140,7 +140,7 @@ body{
 	margin-bottom:20px; 
 }
 footer .fonfut{
-	background-image: linear-gradient(rgb(38, 38, 38), rgb(23, 23, 23) );
+	background-image: linear-gradient(#fff, rgb(23, 23, 23) );
 	color: rgb(153, 153, 153);
 	padding-top: 80px;
 }
